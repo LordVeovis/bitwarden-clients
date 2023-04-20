@@ -45,7 +45,7 @@ impl super::BiometricTrait for Biometric {
         // The Windows Hello prompt is displayed inside the application window. For best result we
         //  should set the window to the foreground and focus it.
         set_focus(window);
-        Ok(true);
+        Ok(true)
         //let interop = factory::<UserConsentVerifier, IUserConsentVerifierInterop>()?;
         //let operation: IAsyncOperation<UserConsentVerificationResult> =
         //    unsafe { interop.RequestVerificationForWindowAsync(window, &HSTRING::from(message))? };
